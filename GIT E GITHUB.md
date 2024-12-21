@@ -29,6 +29,7 @@ adiciona todos os aquivos -> git add .
 
 *git commit* : Salva o arquivo
 *git commit -m ''* : Add um comentário
+*git commit nome_arquivo -m ''*: para dar commit em um arquivo só
 
 *git branch -M master* : Para criar uma branch Master, ou seja é uma 
 ramificação no projeto
