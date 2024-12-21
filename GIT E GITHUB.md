@@ -30,6 +30,16 @@ adiciona todos os aquivos -> git add .
 *git commit* : Salva o arquivo
 *git commit -m ''* : Add um comentário
 
+*git branch -M master* : Para criar uma branch Master, ou seja é uma 
+ramificação no projeto
+
+*git remote add origin (link)* : É usado para buscar o link do repositório do GitHub
+
+*git remote -v* : É usado para ver as origens já registradas
+
+*git remote rm origin* : É usado para remover a origem atual para adicionar outra
+
+
 # CLONANDO UM REPOSITÓRIO
 ABRE O PROJETO E CLICA EM <CODE> E DEPOIS SSH E COPIA O LINK, LOGO APÓS UTILIZAR
 UM COMANDO *git clone*:
