@@ -39,7 +39,6 @@ ramificação no projeto
 
 *git remote rm origin* : É usado para remover a origem atual para adicionar outra
 
-
 # CLONANDO UM REPOSITÓRIO
 ABRE O PROJETO E CLICA EM <CODE> E DEPOIS SSH E COPIA O LINK, LOGO APÓS UTILIZAR
 UM COMANDO *git clone*:
