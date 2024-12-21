@@ -8,7 +8,7 @@ na versão principal
 É um protocolo de rede criptográfica para operar serviços de rede com segurança em
 uma rede não segura.
 
-# COMANDOS BÁSICOS PARA O TERMINAL
+# COMANDOS 
 
 *Cd(change Directory)* : muda o local do diretório atual, para isso utilize: 
                             cd<caminho> entre ""
@@ -29,7 +29,10 @@ adiciona todos os aquivos -> git add .
 
 *git commit* : Salva o arquivo
 *git commit -m ''* : Add um comentário
+*git commit -a -m ''* : da um commit em vários arquivos
 *git commit nome_arquivo -m ''*: para dar commit em um arquivo só
+
+*git rm* : É usado para remover um arquivo
 
 *git branch -M master* : Para criar uma branch Master, ou seja é uma 
 ramificação no projeto
@@ -40,9 +43,14 @@ ramificação no projeto
 
 *git remote rm origin* : É usado para remover a origem atual para adicionar outra
 
+# SUBINDO PARA O REPOSITÓRIO
+
+*git push*: Envia as alterações ao GitHub
+
+*git pull* : Puxa as informações do repositório *(quando há mudanças no repositório)*
+
 # CLONANDO UM REPOSITÓRIO
-ABRE O PROJETO E CLICA EM <CODE> E DEPOIS SSH E COPIA O LINK, LOGO APÓS UTILIZAR
-UM COMANDO *git clone*:
+ABRE O PROJETO E CLICA EM <CODE> E DEPOIS (SSH ou HTPPS) E COPIA O LINK, LOGO APÓS UTILIZAR UM COMANDO CHAMADO *git clone*:
 
 Ex:
 git clone<link>
@@ -50,8 +58,3 @@ git clone<link>
 **para trazer apenas os arquivos usa-se:**
 git@github.com:LeonardoAtaides/MyProjects.git .
                                              |-> apenas add com o espaço o ponto
-
-# SUBINDO PARA O REPOSITÓRIO
-Ex:
-git push -> empurrar irá eviar as alterações ao GitHub
-git pull -> puxar
