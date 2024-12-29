@@ -32,8 +32,6 @@ adiciona todos os aquivos -> git add .
 *git commit -a -m ''* : da um commit em vários arquivos
 *git commit nome_arquivo -m ''*: para dar commit em um arquivo só
 
-*git rm -f (nome_arq)* : É usado para remover um arquivo após ter dado um add
-*git rm (nome_arq)* : É usado para remover um arquivo após ter dado um commit
 
 *git branch -M master* : Para criar uma branch Master, ou seja é uma 
 ramificação no projeto
@@ -59,3 +57,9 @@ git clone<link>
 **para trazer apenas os arquivos usa-se:**
 git@github.com:LeonardoAtaides/MyProjects.git .
                                              |-> apenas add com o espaço o ponto
+
+# REMOVER ARQUIVOS DO REPOSITÓRIO
+
+*git rm -f (nome_arq)* : É usado para remover um arquivo após ter dado um add
+
+*git rm (nome_arq)* : É usado para remover um arquivo após ter dado um commit
