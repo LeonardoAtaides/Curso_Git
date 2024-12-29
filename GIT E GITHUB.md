@@ -80,4 +80,6 @@ Date:  Sun Dec 29 17:39:38 2024                |     Data Mês e Hora    |
 
 # RENOMEAR ARQUIVOS
 Possibilita renomear e mover arquivos dentro do projeto, utilizando: *git mv*
-*movendo* : git mv (nome_arquivo) (nome_pasta)/(nome_arquivo)
+*movendo* : git mv (arquivo) (pasta)/(arquivo)
+
+*renomeado* : git mv (pasta)/(arquivo) (pasta)/(novo nome do arquivo)
