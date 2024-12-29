@@ -59,7 +59,24 @@ git@github.com:LeonardoAtaides/MyProjects.git .
                                              |-> apenas add com o espaço o ponto
 
 # REMOVER ARQUIVOS DO REPOSITÓRIO
+Remove arquivos, não só deletando do GitHub mais também do projeto alocado da máquina local (PC)
+
 
 *git rm -f (nome_arq)* : É usado para remover um arquivo após ter dado um add
 
 *git rm (nome_arq)* : É usado para remover um arquivo após ter dado um commit
+**Onde não precisa adicionar o arquivo usando git add apenas sendo necessário dar commit**
+
+# HISTÓRICO DE ALTERAÇÕES
+Possibilita acessar as modificações feitas no projeto, utilizando: *git log*
+**recebendo informações sobre os commits já realizados no projeto**
+                                                _______Mostrando:________
+commit 6eb1549e5be7553cbb                      |    Código do Commit    |
+Author: Leonardo Ataídes <leonardo@gmail.com>  | Nome e Email da pessoa |
+Date:  Sun Dec 29 17:39:38 2024                |     Data Mês e Hora    |
+    delete file                                |   Mensagem do Commit   |
+                                               |________________________|
+         **Apertando ENTER vai mostrando todas as alterações**
+
+# RENOMEAR ARQUIVOS
+Possibilita renomear e mover arquivos dentro do projeto, utilizando: *git mv*
