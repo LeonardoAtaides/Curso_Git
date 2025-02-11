@@ -170,6 +170,7 @@ Podemos verificar uma tag com o comando git show (nome)
 ## TROCAR DE TAG
 Podemos trocar de tags com o comando git checkout (nome)
 
+
 ## ENVIAR A TAG AO REPOSITÓRIO
 Podemos enviar as tags para o repositório de código, utiliza-se 
 o comando git push origin(nome), para enviar todas as tags usa-se,git push origin --tags
