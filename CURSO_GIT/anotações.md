@@ -35,6 +35,11 @@ Para encontrar uma branch já criada, para trazê-la até outro ponto de desenvo
 [new branch]      Nome_Branch -> origin/Nome_Branch
     *ONDE PARA ACESSÁ-LO DEVE USAR GIT CHECKOUT*
 
+## Exibindo Diferenças de um Branch
+Serve para exibir as diferenças de um branch, utilizando o comando *git diff* 
+
+**Pode-se verificar a diferença entre arquivos: *git diff <arquivo> <arquivo_2>***
+
 # SSH
 É um protocolo de rede criptográfica para operar serviços de rede com segurança em
 uma rede não segura.
@@ -166,6 +171,7 @@ Para visualizar as tags já criadas utiliza-se o comando git tag
 
 ## VERIFICANDO A TAG
 Podemos verificar uma tag com o comando git show (nome)
+**pode ser usado para ver detalhes de um commit em branches**
 
 ## TROCAR DE TAG
 Podemos trocar de tags com o comando git checkout (nome)
