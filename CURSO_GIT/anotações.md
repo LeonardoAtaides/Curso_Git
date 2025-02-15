@@ -39,6 +39,8 @@ Para encontrar uma branch já criada, para trazê-la até outro ponto de desenvo
 Serve para exibir as diferenças de um branch, utilizando o comando *git diff* 
 
 **Pode-se verificar a diferença entre arquivos: *git diff <arquivo> <arquivo_2>***
+Ex: Para comparar o arquivo atual com o do repositório, usa: 
+*git diff HEAD:arquivo.txt arquivo.txt*
 
 # SSH
 É um protocolo de rede criptográfica para operar serviços de rede com segurança em
@@ -103,27 +105,31 @@ Remove arquivos, não só deletando do GitHub mais também do projeto alocado da
 git rm -f (nome_arq) : É usado para remover um arquivo após ter dado um add
 
 git rm (nome_arq) : É usado para remover um arquivo após ter dado um commit
-*Onde não precisa adicionar o arquivo usando git add apenas sendo necessário dar commit*
+**Onde não precisa adicionar o arquivo usando git add apenas sendo necessário dar commit**
 
 # HISTÓRICO DE ALTERAÇÕES
 Possibilita acessar as modificações feitas no projeto, utilizando: git log
-*recebendo informações sobre os commits já realizados no projeto*
+**recebendo informações sobre os commits já realizados no projeto**
                                                 ______Mostrando:_______
 commit 6eb1549e5be7553cbb                      |    Código do Commit    |
 Author: Leonardo Ataídes <leonardo@gmail.com>  | Nome e Email da pessoa |
 Date:  Sun Dec 29 17:39:38 2024                |     Data Mês e Hora    |
     delete file                                |   Mensagem do Commit   |
                                                ||
-         *Apertando ENTER vai mostrando todas as alterações*
+         **Apertando ENTER vai mostrando todas as alterações**
+         
+## Log Resumido
+Mostra um Histórico de alterações de forma resumida, utilizando: *git shortlog*
+
 
 # RENOMEAR ARQUIVOS
-Possibilita renomear e mover arquivos dentro do projeto, utilizando: git mv
+Possibilita renomear e mover arquivos dentro do projeto, utilizando: *git mv*
 movendo : git mv (arquivo) (pasta)/(arquivo)
 
 renomeado : git mv (pasta)/(arquivo) (pasta)/(novo nome do arquivo)
 
 # DESFAZENDO ALTERAÇÕES "MOMENTÂNEAS"
-O arquivo modificado retorna ao estado original, utilizando: git checkout
+O arquivo modificado retorna ao estado original, utilizando: *git checkout*
 
 Ex: Realiza-se uma modificação e decide apagar, mesmo apagando o git identifica uma alteração,
 então usa git checkout (arquivo) para retornar ao estado original.
@@ -148,13 +154,13 @@ após utilizar o comando o branch será resetado para a versão de acordo com o 
             *O COMANDO SO FUNCIONA ANTES DE DAR COMMIT*
 
 ## "VERIFICAR"
-Pode-se verificar as stashs criadas pelo comando git stash list, 
+Pode-se verificar as stashs criadas pelo comando *git stash list*
 
 ## "RECUPERANDO"
-Para recuperar a stash utiliza-se o comando git stash apply (indice)
+Para recuperar a stash utiliza-se o comando *git stash apply (indice)*
 
 ## "VER AS MODIFICAÇÕES"
-Para ver as modificações feitas no stash utiliza-se o comando git stash show -p(indice)
+Para ver as modificações feitas no stash utiliza-se o comando *git stash show -p(indice)*
 
 ## "REMOVENDO"
 Para limpar totalmaente as stash de um branch podemos utilizar o comando git stash clear
