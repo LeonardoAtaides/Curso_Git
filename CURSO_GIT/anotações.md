@@ -117,10 +117,9 @@ Date:  Sun Dec 29 17:39:38 2024                |     Data Mês e Hora    |
     delete file                                |   Mensagem do Commit   |
                                                ||
          **Apertando ENTER vai mostrando todas as alterações**
-         
+
 ## Log Resumido
 Mostra um Histórico de alterações de forma resumida, utilizando: *git shortlog*
-
 
 # RENOMEAR ARQUIVOS
 Possibilita renomear e mover arquivos dentro do projeto, utilizando: *git mv*
@@ -177,7 +176,7 @@ Para visualizar as tags já criadas utiliza-se o comando git tag
 
 ## VERIFICANDO A TAG
 Podemos verificar uma tag com o comando git show (nome)
-**pode ser usado para ver detalhes de um commit em branches**
+**ㅤPode ser usado para ver detalhes de um commit em branchesㅤ**
 
 ## TROCAR DE TAG
 Podemos trocar de tags com o comando git checkout (nome)
@@ -196,3 +195,8 @@ utiliza-se o comando - *git submodule add <link_do_repositório> submodulo*
 ## ATUALIZANDO O SUBMÓDULO
 utiliza-se o comando - *git push --recurse-submodules=on-demand*, onde fará atualização
 apenas do submódulo
+
+# LIMPANDO ARQUIVOS UNTRACKED
+E usado para verificar os arquivos que não estão sendo trackeados, utilizando *git clean -f*
+**ㅤImportante e sempre adicionar os que deseja logo após utilizar o comadnoi *clean*ㅤ**
+**ㅤArquivos trackeados são aqueles de não foram adicioandos ao *git add* aindaㅤ**
