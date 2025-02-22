@@ -229,3 +229,7 @@ Usado para mapear todos os seus passos no repositório, até uma mudança de bra
 # TRANSFORMAR O REPOSITÓRIO PARA ARQUIVO
 Para transformar o repositório em um arquivo, utiliza-se o comando
 *git archive --format zip --output master_files.zip (branch)*, criando um arquivo zipado
+
+# COMMIT PRIVADO EM UMA BRANCH
+Onde é criado branch que não será compatilhada no repositório, então pode-se fazer qualquer commit, utilizando o *rebase* com o comando:
+*git rebase (branch atual) (branch-privado) -i*, escolhendo branches pra excluir *(squash)* e renomear com *(reword)* e depois para salvar no arquivo digita *;xl!*
