@@ -212,6 +212,20 @@ apenas do submódulo
 
 
 # LIMPANDO ARQUIVOS UNTRACKED
-E usado para verificar os arquivos que não estão sendo trackeados, utilizando *git clean -f*
-**ㅤImportante e sempre adicionar os que deseja logo após utilizar o comadnoi *clean*ㅤ**
+E usado para verificar os arquivos que não estão sendo trackeados e removendo eles, utilizando *git clean -f*
+**ㅤImportante e sempre adicionar os que deseja logo após utilizar o comando  *clean*ㅤ**
 **ㅤArquivos trackeados são aqueles de não foram adicioandos ao *git add* aindaㅤ**
+
+# OTIMIZANDO O REPOSITÓRIO
+Para otimizar o repositório, utiliza-se o comando *git gc*, que identifica arquivos que não são mais necessários e os exclui, onde ajuda a otimizar o projeto
+
+# CHECAR A INTEGRIDADE DO REPOSITÓRIO
+Para verificar a integridade dos arquivos e sua conectividade, utiliza-se o comando *git fsck*, **VERIFICA POSSÍVEIS CORRUPÇÕES EM ARQUIVOS**
+
+# REFLOG
+Usado para mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log, utilizando o comando *git reflog*
+**FICAM SALVOS DURANTE 3O DIAS ATÉ EXPIRAREM**
+
+# TRANSFORMAR O REPOSITÓRIO PARA ARQUIVO
+Para transformar o repositório em um arquivo, utiliza-se o comando
+*git archive --format zip --output master_files.zip (branch)*, criando um arquivo zipado
