@@ -1,4 +1,4 @@
-# GIT E GITHUB
+# GIT
 
 # SSH
 É um protocolo de rede criptográfica para operar serviços de rede com segurança em uma rede não segura, onde pode ser copiada esse link atráves do GitHub onde possibilita ter a acesso ao repositório remoto
@@ -233,3 +233,9 @@ Para transformar o repositório em um arquivo, utiliza-se o comando
 # COMMIT PRIVADO EM UMA BRANCH
 Onde é criado branch que não será compatilhada no repositório, então pode-se fazer qualquer commit, utilizando o *rebase* com o comando:
 *git rebase (branch atual) (branch-privado) -i*, escolhendo branches pra excluir *(squash)* e renomear com *(reword)* e depois para salvar no arquivo digita *;xl!*
+
+# GITHUB
+ 
+# ABA ISSUE
+Permite criar tarefas ou possíveis bugs do projeto, se tornando algo crucial 
+a organização e se manter ciente do que precisa *fazer ou corrigir*
