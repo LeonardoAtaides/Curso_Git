@@ -239,3 +239,24 @@ Onde é criado branch que não será compatilhada no repositório, então pode-s
 # ABA ISSUE
 Permite criar tarefas ou possíveis bugs do projeto, se tornando algo crucial 
 a organização e se manter ciente do que precisa *fazer ou corrigir*
+**ㅤHá um padrão para a criação de novos issuesㅤ**
+
+# ABA PULL REQUEST
+Nesta aba é onde os colaboradores do projeto enviam código pra resolver as *issues* ou *adicionar novas* funcionalidades ao projeto, onde o código não e inserifo direto na master e sim passse por um *pull request* para ser analisado, vindo de um novo branch criado com o incremento de código
+
+# ABA ACTIONS
+Nesta aba é onde se cria as automatizações de deploy com integração em outros serviços,
+podemos criar uma rotina de atualizar a master automaticamente e ouotros processos(*CI/CD*)
+
+# ABA PROJECTS
+Nesta aba é onde podemos criar um projeto e utilizar um quadro de tarefas, sendo conhecido como *kanban* e pode ajudar a organizar seu time, criando notas que podem virar *issues*.
+                     **A tela lembra muito o Software Trello**
+                                *Estrutura interresante*
+                                        Backlog
+                                  Retorno de Qualidade
+                                    Desenvolvimento
+                                         Testes
+                                       Finalizadas
+
+# ABA WIKI
+Neste aba é onde podemos criar uma documentação mais extensa para o projeto, como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções, traz uma idea que é um *repositótio de conhecimento* sobre o projeto
