@@ -260,3 +260,12 @@ Nesta aba é onde podemos criar um projeto e utilizar um quadro de tarefas, send
 
 # ABA WIKI
 Neste aba é onde podemos criar uma documentação mais extensa para o projeto, como descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções, traz uma idea que é um *repositótio de conhecimento* sobre o projeto
+
+# ABA INSIGHTS
+Nesta aba é onde temos as informações detalhadas do projeto, como: os contruibuidores, commits,forks e etc, *acompanhando a evolução do projeto*
+
+# ABA SETTINGS
+Nesta aba é onde temos acesso a diversas configurações do projeto, onde podemos alterar o nome do repo ou remover/adicionar features, colaboradores e etc
+
+# GIST
+Um Gist é um pequeno bloco de código que pode hospedado no GitHub, e *pode ser compartilhado*
