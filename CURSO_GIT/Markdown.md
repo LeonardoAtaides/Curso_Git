@@ -28,4 +28,4 @@ Ex:
 
 ##Links
 Pode criar links para outros sites, utilizando o comando: "[Texto] (link)"
-Ex: [Google](https://www.google.com)
+Ex: [Google](https://www.google.com) / [Instagram](https://www.instagram.com)
