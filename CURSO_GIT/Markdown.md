@@ -33,10 +33,9 @@ Ex: [Google](https://www.google.com) / [Instagram](https://www.instagram.com)
 ###Link com imagem: "[![Texto alt] (link imagem)] (link)"
 
 ##Código
-Podemos inserir código também, utilizando '''código'''
+Podemos inserir código também, utilizando ```código```
 Ex:
-
-'''
+```python
     def soma(a +b ):
         return a + b
-'''
+```
