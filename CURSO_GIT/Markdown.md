@@ -21,7 +21,7 @@ Lista ordenada: 1. Item
 
 ## Imagens
 E possível inserir imagens, usado o comando:
-![Texto alt](link imagem)
+"![Texto alt](link imagem)"
 Ex:
 
-![imagem](https://assets.aboutamazon.com/dims4/default/8416cec/2147483647/strip/true/crop/1320x743+0+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F2f%2Fea%2Fa719356240fc9f87c45adfb91cea%2Fdownload.jpeg)
+![imagem](https://www.google.com/url?sa=i&url=https%3A%2F%2Fscreenrant.com%2Finvincible-mark-love-eve-more-than-amber-date-op-ed%2F&psig=AOvVaw3wD3x04m2pkEcK_m9Fps2J&ust=1742766877510000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDb-NTWnowDFQAAAAAdAAAAABAP)
