@@ -269,3 +269,4 @@ Nesta aba é onde temos acesso a diversas configurações do projeto, onde podem
 
 # GIST
 Um Gist é um pequeno bloco de código que pode hospedado no GitHub, e *pode ser compartilhado*
+
