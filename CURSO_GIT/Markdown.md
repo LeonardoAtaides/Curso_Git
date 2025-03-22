@@ -40,3 +40,14 @@ Podemos inserir código também, utilizando ```código```
     def soma(a +b ):
         return a + b
 ```
+
+## Task List
+Pode-se criar uma lista de tarefas, utilizando:
+tarefas concuídas: -[x] 
+tarefas pendentes: -[ ]
+
+### Ex: Lista de tarefas a fazer:
+- [ x ] - Trabalhar
+- [ x ] - Limpar Casa
+- [ x ] - Malhar
+- [  ] - Dormir
