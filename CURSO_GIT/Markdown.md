@@ -29,3 +29,6 @@ Ex:
 ##Links
 Pode criar links para outros sites, utilizando o comando: "[Texto] (link)"
 Ex: [Google](https://www.google.com) / [Instagram](https://www.instagram.com)
+
+###Link com imagem: "[![Texto alt] (link imagem)] (link)"
+Ex: [![Google](https://www.google.com/images/branding/googlelogo/2x/googlelogo)
