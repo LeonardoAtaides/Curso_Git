@@ -47,7 +47,7 @@ tarefas concuídas: -[x]
 tarefas pendentes: -[ ]
 
 ### Ex: Lista de tarefas a fazer:
-- [ x ] - Trabalhar
-- [ x ] - Limpar Casa
-- [ x ] - Malhar
-- [  ] - Dormir
+- [x] - Trabalhar
+- [x] - Limpar Casa
+- [x] - Malhar
+- [ ] - Dormir
