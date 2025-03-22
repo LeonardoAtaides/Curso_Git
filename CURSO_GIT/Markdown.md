@@ -21,11 +21,11 @@ Lista ordenada: 1. Item
 
 ## Imagens
 Possível inserir imagens, usado o comando:
-"![Texto alt](link imagem)"
+"![Texto alt] (link imagem)"
 
 Ex:
 ![imagem](https://images.steamusercontent.com/ugc/5844057806742110585/ADBD51F7D4A3D4D4789C08B1C8527315C8446E4A/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
 ##Links
-Pode criar links para outros sites, utilizando o comando: [Texto](link)
+Pode criar links para outros sites, utilizando o comando: "[Texto] (link)"
 Ex: [Google](https://www.google.com)
