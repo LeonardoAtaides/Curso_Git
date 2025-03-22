@@ -20,8 +20,12 @@ Lista ordenada: 1. Item
 *Pode criar uma lista aninhada - 2 tabs*
 
 ## Imagens
-E possível inserir imagens, usado o comando:
+Possível inserir imagens, usado o comando:
 "![Texto alt](link imagem)"
-Ex:
 
-![imagem](https://www.google.com/url?sa=i&url=https%3A%2F%2Fscreenrant.com%2Finvincible-mark-love-eve-more-than-amber-date-op-ed%2F&psig=AOvVaw3wD3x04m2pkEcK_m9Fps2J&ust=1742766877510000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDb-NTWnowDFQAAAAAdAAAAABAP)
+Ex:
+![imagem](https://images.steamusercontent.com/ugc/5844057806742110585/ADBD51F7D4A3D4D4789C08B1C8527315C8446E4A/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+
+##Links
+Pode criar links para outros sites, utilizando o comando: [Texto](link)
+Ex: [Google](https://www.google.com)
