@@ -35,7 +35,8 @@ Ex: [Google](https://www.google.com) / [Instagram](https://www.instagram.com)
 ##Código
 Podemos inserir código também, utilizando '''código'''
 Ex:
-'''python
+
+'''
     def soma(a +b ):
         return a + b
 '''
